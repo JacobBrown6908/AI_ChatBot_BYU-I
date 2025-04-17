@@ -1,0 +1,67 @@
+---
+title: "AI Research"
+author: "Jacob Brown"
+date: "01-13-2025"
+categories: [news]
+image: "Week1AITA.png"
+---
+
+### Weekly Work
+
+Week one, we started to work on doing research on which model would be best to use. We were given some direction on where we should spend our time, and we are currently looking at Gemini Gems, Chat GPT, BotPress, and Google AI Studios. All of them pose different problems and, more importantly, different solutions.
+
+Gemini Gems:
+This program is very new, and because it's so new, some of the problems might change, but we think we should address them anyway.
+
+Cons:
+
+-You cannot share keys, making it almost impossible to create a bot that will benefit the whole school with a model that 
+
+-needs to be accessed by a number of students per class.
+
+-It is hard to share files with this program, making it hard for students to submit assignments to have a mock grade.
+
+Pros:
+
+-It is new, and we hope that we can start making some major changes.
+
+Chat GPT:
+Chat GPT is an AI that is being used by countless students, so it would not be hard to build a model from this pre-existing GUI.
+
+Cons:
+
+-Chat has a very limited amount of tokens, about 4,000 every few hours, only allowing for a few queries.
+
+-You are not able to share the paid-for version with others, so each student would need to pay for their own.
+
+Pros:
+
+-Chat is one of the largest AIs out in the world, and because of this, it has a large backing of pre-built knowledge.
+
+-It has an easy-to-use prompt builder with easy-to-teach/train parameters.
+
+BotPress:
+This AI is new and a third party, with more limited backing and trained knowledge.
+
+Cons:
+
+-The responses are very vague and not the best for student understanding.
+
+-Does not seem easy to use with an API, and overall, it's the team's least favorite.
+
+
+Google AI Studios:
+This is a little older and is designed to make your own AI, with both free and paid versions.
+
+Cons:
+
+-We would say it’s too intuitive, making it tedious to give it specific blocks on what not to train it on.
+
+Pros:
+
+-Over 1,000,000 tokens a minute for free.
+
+-Easy to upload files and receive feedback.
+
+
+All of these options have potential to be used in different areas of education, and we are starting to see that we might have to work with all of them. However, we also want to try and narrow it down to one or maybe two, to limit our task of building an AI tutor for the campus here at BYUI.
