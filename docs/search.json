@@ -1,52 +1,10 @@
 [
   {
-    "objectID": "posts/week 9/week9.html",
-    "href": "posts/week 9/week9.html",
-    "title": "Advancing User Experience: Front-End Development, MongoDB Integration, and New Features for Enhanced Learning",
-    "section": "",
-    "text": "Weekly Work\nThis week, we focused on developing our front end and integrating it with the back end. Additionally, we began building the Admin page and connecting a MongoDB database to the model. This allows us to track what students are asking, and we hope teachers can use this analysis to improve their teaching on a daily or weekly basis.\nWe have also started implementing a scroll feature, enabling users to review past prompts and responses from the model. Furthermore, we’re working on adding customization options to the front end, such as dark mode and theme selection, to enhance the user experience."
-  },
-  {
-    "objectID": "posts/week 7/week7.html",
-    "href": "posts/week 7/week7.html",
-    "title": "Building the BYU-Idaho Tutor Chatbot: Team Collaboration on RAGs, Frontend, API, and Database Integration",
-    "section": "",
-    "text": "Weekly Work\nThis week, we started by dividing the work among us, focusing on four key areas: RAGs, frontend development, API login, and database storage for prompts.\nTyler, J.T., and Jacob are working on the RAGs, with Tyler leading this section since he has already made significant progress in this area.\nJake is leading the frontend development, collaborating with Brandon and Scott. Scott is focusing specifically on the frontend UI, while Brandon is working on database creation alongside Jena. Meanwhile, Jake is also handling API login, working closely with Eduardo.\nOur goal is to spend the next week gaining a deeper understanding of each component before bringing everything together. We aim to integrate the pieces into a functional system within the next week or two, followed by testing and fine-tuning to ensure everything runs smoothly."
-  },
-  {
-    "objectID": "posts/Week 5/week5.html",
-    "href": "posts/Week 5/week5.html",
-    "title": "Building a Smarter Campus: Developing a BYU-Idaho Tutor Chatbot with AI and Data Privacy in Mind",
-    "section": "",
-    "text": "At the end of last week, we had the opportunity to present our research and work to Brother Ashby, the Head of AI Usage at BYU-Idaho. He informed us that our initial work was a strong foundation for developing a new Tutor/T.A. Chatbot for the campus.\nWe were advised to focus on general data privacy rather than exclusively on FERPA laws, with FERPA falling under that broader umbrella. Additionally, we were encouraged to realign our presentation with the mission statement of BYU-Idaho:\n\nBrigham Young University-Idaho was founded and is supported and guided by The Church of Jesus Christ of Latter-day Saints. Its mission is to develop disciples of Jesus Christ who are leaders in their homes, the Church, and their communities.\nProviding a high-quality education that prepares students of diverse interests and abilities for lifelong learning and employment.\nServing as many students as possible within resource constraints.\nDelivering education that is affordable for students and the Church.\n\nOver the weekend and before our Thursday meeting, we worked on revising this section of our presentation, adjusting the focus of our PowerPoint and executive summary accordingly. We also spent time understanding Vertex AI and RAG (Retrieval-Augmented Generation) data storage and retrieval. This is a key part of the next phase of our project—developing a Vertex AI system integrated with RAG data related to the course."
-  },
-  {
-    "objectID": "posts/Week 3/week3.html",
-    "href": "posts/Week 3/week3.html",
-    "title": "Executive Summary & Building Prompts",
-    "section": "",
-    "text": "Weekly Work\nThis week, we are working on making our executive summary. Edwardo and Scott are looking for price points for each of our models that we are considering. TJ and Jenaveve have worked on finding FERPA laws and concerns about using AI in the school. Jake has been working on the front end with API keys and has made significant progress in building a platform to send and receive text. He is also working on adding different tools for teachers and students. Tyler is reaching out to different department heads and trying to set up meetings. Brandon is working on the executive summary, making it look polished and keeping things organized as one of the project managers. Jacob had a meeting with a member of the CSE department at BYU-Idaho, Brother Barney, and received valuable guidance on how to build prompts for the different models we want to use in testing."
-  },
-  {
-    "objectID": "posts/week 11/week11.html",
-    "href": "posts/week 11/week11.html",
-    "title": "Optimizing AI Tutoring: Integrating RAGs with Personalized Course Materials for Seamless Student Support",
-    "section": "",
-    "text": "Weekly Work\nThis week, we have been working on integrating RAGs with multiple courses into a single AI tutor bot for students. Several ideas have been discussed.\nInitially, we considered having one tutor bot per course that any student could access. However, this approach posed challenges, as courses change each semester, making integration with Canvas, the school’s online education system, more complex.\nNext, we explored the idea of creating a corpus of all course materials, categorized into different RAGs and storage buckets. Under this approach, each student would have a personalized corpus based on the courses they are enrolled in. This corpus would update at the beginning of each semester, ensuring the AI tutor contains only relevant information for that student’s active courses.\nAdditionally, we plan to implement a function that updates students’ corpora after the drop/add deadline. This would automatically adjust their AI tutor to reflect any newly added or dropped courses.\nBy structuring the system this way, we believe RAGs wouldn’t need to run multiple times for each student, but rather just once per semester—provided that buckets (data storage locations) are updated by instructors. This approach maintains high-quality interactions while ensuring the AI tutor remains helpful to both students and faculty."
-  },
-  {
-    "objectID": "posts/Week 1/week1.html",
-    "href": "posts/Week 1/week1.html",
-    "title": "AI Research",
-    "section": "",
-    "text": "Weekly Work\nWeek one, we started to work on doing research on which model would be best to use. We were given some direction on where we should spend our time, and we are currently looking at Gemini Gems, Chat GPT, BotPress, and Google AI Studios. All of them pose different problems and, more importantly, different solutions.\nGemini Gems: This program is very new, and because it’s so new, some of the problems might change, but we think we should address them anyway.\nCons:\n-You cannot share keys, making it almost impossible to create a bot that will benefit the whole school with a model that\n-needs to be accessed by a number of students per class.\n-It is hard to share files with this program, making it hard for students to submit assignments to have a mock grade.\nPros:\n-It is new, and we hope that we can start making some major changes.\nChat GPT: Chat GPT is an AI that is being used by countless students, so it would not be hard to build a model from this pre-existing GUI.\nCons:\n-Chat has a very limited amount of tokens, about 4,000 every few hours, only allowing for a few queries.\n-You are not able to share the paid-for version with others, so each student would need to pay for their own.\nPros:\n-Chat is one of the largest AIs out in the world, and because of this, it has a large backing of pre-built knowledge.\n-It has an easy-to-use prompt builder with easy-to-teach/train parameters.\nBotPress: This AI is new and a third party, with more limited backing and trained knowledge.\nCons:\n-The responses are very vague and not the best for student understanding.\n-Does not seem easy to use with an API, and overall, it’s the team’s least favorite.\nGoogle AI Studios: This is a little older and is designed to make your own AI, with both free and paid versions.\nCons:\n-We would say it’s too intuitive, making it tedious to give it specific blocks on what not to train it on.\nPros:\n-Over 1,000,000 tokens a minute for free.\n-Easy to upload files and receive feedback.\nAll of these options have potential to be used in different areas of education, and we are starting to see that we might have to work with all of them. However, we also want to try and narrow it down to one or maybe two, to limit our task of building an AI tutor for the campus here at BYUI."
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Our Project and The Team",
     "section": "",
-    "text": "T.A.L.O.S. (Teaching Assistant for Learning Optimization & Success) is designed to enhance learning at BYU-Idaho by providing a dedicated Teaching Assistant/Tutor Chatbot. Our goal is to develop a specialized LLM that students can access 24/7, tailored specifically to their course, instructor, and subject matter. By training the model on relevant materials, T.A.L.O.S. will serve as an expert in subjects such as Statistics, Biology, or Python, offering accurate and course-specific assistance—all while maintaining the highest quality of education.\n\n\n\nProject Image 2\n\n\n\n\nOur mission is to provide accurate and reliable information through meticulously trained AI, enhancing learning quality with precision and efficiency."
+    "text": "Our Team"
   },
   {
     "objectID": "about.html#jacob-brown",
@@ -81,7 +39,7 @@
     "href": "about.html#jake-zalesny",
     "title": "About Our Project and The Team",
     "section": "Jake Zalesny",
-    "text": "Jake Zalesny\n\n\n\nTeam Member 3\n\n\n\nRole: AI Engineer\nBackground: Computer science expert and frontend specialist with strong technical skills. He is dedicated to creating seamless, user-friendly digital experiences.\nLinkedIn: LinkedIn\n\nGitHub: GitHub"
+    "text": "Jake Zalesny\n\n\n\nRole: AI Engineer\nBackground: Computer science expert and frontend specialist with strong technical skills. He is dedicated to creating seamless, user-friendly digital experiences.\nLinkedIn: LinkedIn\n\nGitHub: GitHub"
   },
   {
     "objectID": "about.html#jenaveve-white",
@@ -110,40 +68,5 @@
     "title": "BYUI AI Tutor",
     "section": "",
     "text": "Optimizing AI Tutoring: Integrating RAGs with Personalized Course Materials for Seamless Student Support\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 24, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nStreamlining AI Tutoring: Integrating RAGs Across Multiple Courses for Personalized Learning\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 17, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nAdvancing User Experience: Front-End Development, MongoDB Integration, and New Features for Enhanced Learning\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 10, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nEnhancing AI Tutoring at BYU-Idaho: Integrating RAGs for Personalized Course Support\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 3, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding the BYU-Idaho Tutor Chatbot: Team Collaboration on RAGs, Frontend, API, and Database Integration\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 24, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nAdvancing AI at BYU-Idaho: Front-End Development and RAG Integration for the Tutor Chatbot\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 17, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nBuilding a Smarter Campus: Developing a BYU-Idaho Tutor Chatbot with AI and Data Privacy in Mind\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 10, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nFinalizing the Summary, Building PowerPoint\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 3, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nExecutive Summary & Building Prompts\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 27, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nResarch and Prep to Present\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 20, 2025\n\n\nJacob Brown\n\n\n\n\n\n\n\n\n\n\n\n\nAI Research\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 13, 2025\n\n\nJacob Brown\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/week 10/week10.html",
-    "href": "posts/week 10/week10.html",
-    "title": "Streamlining AI Tutoring: Integrating RAGs Across Multiple Courses for Personalized Learning",
-    "section": "",
-    "text": "Weekly Work\nThis week, we have been working on integrating RAGs with multiple courses into a single AI tutor bot for students. Several ideas have been discussed.\nInitially, we considered having one tutor bot per course that any student could access. However, this approach posed challenges, as courses change each semester, making integration with Canvas, the school’s online education system, more complex.\nNext, we explored the idea of creating a corpus of all course materials, categorized into different RAGs and storage buckets. Under this approach, each student would have a personalized corpus based on the courses they are enrolled in. This corpus would update at the beginning of each semester, ensuring the AI tutor contains only relevant information for that student’s active courses.\nAdditionally, we plan to implement a function that updates students’ corpora after the drop/add deadline. This would automatically adjust their AI tutor to reflect any newly added or dropped courses.\nBy structuring the system this way, we believe RAGs wouldn’t need to run multiple times for each student, but rather just once per semester—provided that buckets (data storage locations) are updated by instructors. This approach maintains high-quality interactions while ensuring the AI tutor remains helpful to both students and faculty."
-  },
-  {
-    "objectID": "posts/Week 2/week2.html",
-    "href": "posts/Week 2/week2.html",
-    "title": "Resarch and Prep to Present",
-    "section": "",
-    "text": "Weekly Work\nThis week, we have decided that we will most likely stick with Google AI Studios. Some members of the team are working on building our front end so that we can integrate it with Canvas, our school’s class management platform. We are also exploring the pricing for the 3-4 different AI programs we plan to use. The goal is to present this information to the school and hopefully secure approval to move forward with building this system. Additionally, we began working on creating an executive summary to help structure our PowerPoint presentation. We aim to begin presenting to the heads of colleges and department chairs within the next two weeks."
-  },
-  {
-    "objectID": "posts/Week 4/week4.html",
-    "href": "posts/Week 4/week4.html",
-    "title": "Finalizing the Summary, Building PowerPoint",
-    "section": "",
-    "text": "Weekly Work\nThis week, we are finalizing our executive summary and working on building our PowerPoint presentation. We are hoping to present this to heads of departments over the next week to work on building models for simple classes that might help them enhance learning and serve as a reliable resource for their students.\nWe have finished most of the front-end development, with a large part of the work credited to Jake Zalesny, as he is our developer. We are also mainly done with our FERPA research—shout out to JT Twiggs and Jenaveve White, who have been working hard to keep us compliant with these laws.\nScott Townsend and Eduardo Ramirez have been working on a cost analysis, specifically focusing on start-up costs and potential savings for the school. We have also been working on outreach, with Tyler Binning taking the lead in communicating with department heads and faculty to help set up meetings and build relationships.\nLastly, Jacob Brown and Brandon Ansbergs have been leading this project in our meetings and within our chats. We’ve been working on cleaning up the summary and building the PowerPoint."
-  },
-  {
-    "objectID": "posts/Week 6/week6.html",
-    "href": "posts/Week 6/week6.html",
-    "title": "Advancing AI at BYU-Idaho: Front-End Development and RAG Integration for the Tutor Chatbot",
-    "section": "",
-    "text": "Weekly Work\nThis week, Jake presented his work with Vetex AI, showcasing the front-end development he’s been working on to build out the model for the class. So far, he has designed the front end, incorporating the school’s logo and adding interactive side tabs for users. He’s been putting in a lot of effort to make the interface both engaging and functional, ensuring it serves as a helpful tool for both students and teachers.\nWe also had Tyler present his work on RAGs, where he demonstrated a bot running directly from his terminal. His project looks polished and well-structured. The setup is straightforward, thanks to Google Cloud’s step-by-step documentation on RAG code, which simplifies the process for anyone looking to replicate his work."
-  },
-  {
-    "objectID": "posts/week 8/week8.html",
-    "href": "posts/week 8/week8.html",
-    "title": "Enhancing AI Tutoring at BYU-Idaho: Integrating RAGs for Personalized Course Support",
-    "section": "",
-    "text": "Weekly Work\nThis week, we have been working on integrating RAGs with multiple courses into a single AI tutor bot for students. Several ideas have been discussed.\nInitially, we considered having one tutor bot per course that any student could access. However, this approach posed challenges, as courses change each semester, making integration with Canvas, the school’s online education system, more complex.\nNext, we explored the idea of creating a corpus of all course materials, categorized into different RAGs and storage buckets. Under this approach, each student would have a personalized corpus based on the courses they are enrolled in. This corpus would update at the beginning of each semester, ensuring the AI tutor contains only relevant information for that student’s active courses.\nAdditionally, we plan to implement a function that updates students’ corpora after the drop/add deadline. This would automatically adjust their AI tutor to reflect any newly added or dropped courses.\nBy structuring the system this way, we believe RAGs wouldn’t need to run multiple times for each student, but rather just once per semester—provided that buckets (data storage locations) are updated by instructors. This approach maintains high-quality interactions while ensuring the AI tutor remains helpful to both students and faculty."
   }
 ]

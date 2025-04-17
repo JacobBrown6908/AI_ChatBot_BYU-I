@@ -1,9 +1,11 @@
 ---
 title: "About Our Project and The Team"
-image: Websight Pics/Group_pic.jpg
 about:
   template: jolla
 ---
+
+!(Websight Pics/Group_pic.jpg){width=100%}
+
 
 
 # About the Project
