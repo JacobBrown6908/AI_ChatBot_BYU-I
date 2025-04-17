@@ -1,0 +1,20 @@
+---
+title: "Enhancing AI Tutoring at BYU-Idaho: Integrating RAGs for Personalized Course Support"
+author: "Jacob Brown"
+date: "3-3-2025"
+categories: [news]
+image: "canvas.png"
+---
+
+### Weekly Work
+
+This week, we have been working on integrating RAGs with multiple courses into a single AI tutor bot for students. Several ideas have been discussed.
+
+Initially, we considered having one tutor bot per course that any student could access. However, this approach posed challenges, as courses change each semester, making integration with Canvas, the school's online education system, more complex.
+
+Next, we explored the idea of creating a corpus of all course materials, categorized into different RAGs and storage buckets. Under this approach, each student would have a personalized corpus based on the courses they are enrolled in. This corpus would update at the beginning of each semester, ensuring the AI tutor contains only relevant information for that student’s active courses.
+
+Additionally, we plan to implement a function that updates students' corpora after the drop/add deadline. This would automatically adjust their AI tutor to reflect any newly added or dropped courses.
+
+By structuring the system this way, we believe RAGs wouldn’t need to run multiple times for each student, but rather just once per semester—provided that buckets (data storage locations) are updated by instructors. This approach maintains high-quality interactions while ensuring the AI tutor remains helpful to both students and faculty.
+

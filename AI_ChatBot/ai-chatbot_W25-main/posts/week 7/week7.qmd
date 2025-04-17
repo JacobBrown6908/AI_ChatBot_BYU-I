@@ -1,0 +1,17 @@
+---
+title: "Building the BYU-Idaho Tutor Chatbot: Team Collaboration on RAGs, Frontend, API, and Database Integration"
+author: "Jacob Brown"
+date: "2-24-2025"
+categories: [news]
+image: "rag.png"
+---
+
+### Weekly Work
+
+This week, we started by dividing the work among us, focusing on four key areas: RAGs, frontend development, API login, and database storage for prompts.
+
+Tyler, J.T., and Jacob are working on the RAGs, with Tyler leading this section since he has already made significant progress in this area.
+
+Jake is leading the frontend development, collaborating with Brandon and Scott. Scott is focusing specifically on the frontend UI, while Brandon is working on database creation alongside Jena. Meanwhile, Jake is also handling API login, working closely with Eduardo.
+
+Our goal is to spend the next week gaining a deeper understanding of each component before bringing everything together. We aim to integrate the pieces into a functional system within the next week or two, followed by testing and fine-tuning to ensure everything runs smoothly.
